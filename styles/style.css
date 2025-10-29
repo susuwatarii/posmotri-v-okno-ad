@@ -54,16 +54,12 @@ ol {
 }
 
 .content {
-  width: 1140px;
-  height: 564px;
-  padding: 133px 30px;
   /*width: 1140px;*/
   /*height: 564px;*/
   /*padding: 133px 30px;*/
   display: grid;
   grid-template-areas: "result details";
   align-items: end;
-  column-gap: 30%;
   grid-template-columns: 711px 399px;
   gap: 30px;
 }
@@ -82,3 +78,11 @@ ol {
   block-size: 100%;
   gap: 26px;
   grid-area: details;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
