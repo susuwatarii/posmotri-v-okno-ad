@@ -65,6 +65,9 @@ ol {
 
 .result {
   grid-area: result;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .content__details {
